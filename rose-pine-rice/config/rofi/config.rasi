@@ -1,0 +1,51 @@
+configuration {
+   modes: [ combi, drun ];
+   combi-modes: [ window, drun, run ];
+}
+
+@theme "default"
+
+window {
+   background-color: #26233a;
+   border-radius: 10px;
+   border: 2px;
+   border-color: #524f67;
+   width: 800px;
+   height: 336px;
+}
+
+listview {
+   scrollbar: false;
+   columns: 2;
+}
+
+entry {
+   placeholder: "Search...";
+   hide-cursor-on-empty: true;
+   text-color: #e0def4;
+}
+
+element {
+   children: [ element-icon, element-text ];
+   spacing: 10px;
+   orientation: horizontal;
+}
+
+element-icon {
+   size: 3.0em;
+}
+
+element.normal normal, element.alternate.normal {
+   background-color: transparent;
+   border-radius: 5px;
+} 
+
+element.selected.normal {
+   background-color: #403d52;
+   border-radius: 10px;
+}
+
+element-text {
+   color: #e0def4;
+   vertical-align: 0.5;
+}
