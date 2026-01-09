@@ -1,0 +1,17 @@
+### FONT
+font-family = JetBrains Mono Nerd Font
+
+### CURSOR
+cursor-style = block
+cursor-style-blink = false
+cursor-color = #c4a7e7
+
+### BACKGROUND
+background-opacity = 0.8
+background = #26233a
+
+
+### SHADERS
+custom-shader = ~/.config/ghostty/shaders/cursor_smear.glsl
+
+### MISC
