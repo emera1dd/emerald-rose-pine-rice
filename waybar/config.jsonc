@@ -16,9 +16,9 @@
         "tray",
         "wireplumber",
         "clock"
-    ]
+    ],
     // Modules configuration
-    }
+    
     "tray": {
         "spacing": 10
     },
