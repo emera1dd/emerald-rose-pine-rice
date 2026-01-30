@@ -10,39 +10,56 @@ window {
    border-radius: 10px;
    border: 2px;
    border-color: #524f67;
-   width: 800px;
-   height: 336px;
+   width: 750px;
+   height: 322px;
 }
 
+prompt {
+   text-color: #31748f;
+   margin: 10px;
+   padding: 10px;
+   border-radius: 35px;
+   background-color: #403d52;
+   }
+   
 listview {
    scrollbar: false;
    columns: 2;
+   spacing: 15px;
 }
 
 entry {
-   placeholder: "Search...";
+   placeholder: "Search Programs...";
    hide-cursor-on-empty: true;
    text-color: #e0def4;
+   margin: 10px;
+   padding: 10px;
+   background-color: #403d52;
+   border-radius: 35px;
+   font: "JetBrains Mono Nerd Font";
+   text-style: bold;
 }
 
 element {
    children: [ element-icon, element-text ];
    spacing: 10px;
    orientation: horizontal;
+   font: "JetBrains Mono Nerd Font";
 }
 
 element-icon {
-   size: 3.0em;
+   size: 2em;
+   padding: 10px;
 }
 
 element.normal normal, element.alternate.normal {
-   background-color: transparent;
-   border-radius: 5px;
+   background-color: #403d52;
+   border-radius: 35px;
 } 
 
 element.selected.normal {
-   background-color: #403d52;
-   border-radius: 10px;
+   background-color: #6e6a86;
+   border-radius: 35px;
 }
 
 element-text {
