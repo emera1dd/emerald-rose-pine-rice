@@ -44,8 +44,18 @@ button {
     color: #ffffff;
 }
 
+#workspaces button.active {
+    background: #31748f;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    }
+
 #workspaces button:hover {
     background: #403d52;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #workspaces button.focused {
@@ -54,7 +64,10 @@ button {
 }
 
 #workspaces button.urgent {
-    background-color: #eb4d4b;
+    background-color: #eb6f92;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #mode {
@@ -69,9 +82,9 @@ button {
     color: #ffffff;
 }
 
-#window,
 #workspaces {
-    margin: 0 0px;
+    padding: 0 5px;
+    margin: 0 5px
 }
 
 #window {

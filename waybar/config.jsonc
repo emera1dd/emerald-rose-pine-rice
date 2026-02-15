@@ -1,7 +1,7 @@
 // -*- mode: jsonc -*-
 {
     "position": "top", // Waybar position (top|bottom|left|right)
-    "height": 30, // Waybar height (to be removed for auto height)
+    "height": 32, // Waybar height (to be removed for auto height)
     "spacing": 0, // Gaps between modules (4px)
     "margin-left": 10,
     "margin-right": 10,
@@ -20,9 +20,12 @@
     ],
     // Modules configuration
     
-    "hyprland/window": {
-        "expand": true
+    "hyprland/workspaces": {
+        "persistent-workspaces": {
+            "*": 5
+            }
         },
+        
     "tray": {
         "spacing": 10
     },
