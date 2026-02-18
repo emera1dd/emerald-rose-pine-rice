@@ -102,6 +102,7 @@ button {
     border: solid 1px #26233a;
     border-radius: 25px;
     color: #e0def4;
+    margin: 0 5px;
     }
 
 #clock {
