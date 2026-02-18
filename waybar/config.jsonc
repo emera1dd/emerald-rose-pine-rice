@@ -15,11 +15,15 @@
     ],
     "modules-right": [
         "tray",
-        "wireplumber",
-
+        "battery",
+        "wireplumber"
     ],
     // Modules configuration
     
+    "battery": {
+        "format": "{icon} {capacity}%",
+        "format-icons": ["", "", "", "", ""],
+        
     "hyprland/workspaces": {
         "persistent-workspaces": {
             "*": 5
