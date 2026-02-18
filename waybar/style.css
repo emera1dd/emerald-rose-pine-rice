@@ -77,7 +77,8 @@ button {
 
 #clock,
 #wireplumber,
-#tray {
+#tray,
+#battery {
     padding: 0 10px;
     color: #ffffff;
 }

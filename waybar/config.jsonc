@@ -23,7 +23,7 @@
     "battery": {
         "format": "{icon} {capacity}%",
         "format-icons": ["", "", "", "", ""],
-        
+        },
     "hyprland/workspaces": {
         "persistent-workspaces": {
             "*": 5
